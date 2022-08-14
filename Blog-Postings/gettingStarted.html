@@ -1,0 +1,268 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meechio | Post 02</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+      <!-- Header -->
+      <header class="header" id="header">
+
+        <nav class="navbar container">
+  
+            <a href="../index.html">
+                <h2 class="logo">meechio</h2>
+            </a>
+  
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="../index.html" class="list-link">About</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="../blog.html" class="list-link">Writing</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="../shop.html" class="list-link">Collection</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                      <a href="#" class="list-link btn sign-up-btn" id="contact-button"><span>Message</span></a>
+                  </li>
+                </ul>
+            </div>
+            
+            <div class="list list-right">
+                <button class="btn place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </button>
+               <!--Configure Search Bar at Later Point-->
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+  
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </button>
+                <!--Extra Buttons
+                <a href="#" class="list-link screen-sm-hidden">Sign in</a>-->
+                <a href="#" class="screen-sm-hidden btn sign-up-btn fancy-border" id="contact-button-main"><span>Message</span></a>
+            </div>
+        </nav>
+    </header>
+  
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+        <div class="form-container-inner">
+  
+            <form action="" class="form">
+                <input class="form-input" type="text" placeholder="How can I help you?">
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-search-line" style="color: rgb(173, 100, 54);"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close.</span>
+        </div>
+  
+        <button class="btn form-close-btn place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </button>
+    </div>
+  
+    <!--Contact-->
+    <div class="contact-form-container container" id="contact-form-container">
+      <div class="form-container-inner">
+  
+          <form action="https://formsubmit.co/sebastian@meechio.com" method="post" class="contact-form">
+              <h3>I'd love to hear from you...</h3>
+              <input type="hidden" name="_captcha" value="false">
+              <!--<input type="hidden" name="_next" value="https://meechio.com/pages/thankyou.html" >--> <!--Add thank you html once set up-->
+              <input class="contact-form-input contact-name" type="text" name="name" placeholder="Name">
+              <input class="contact-form-input contact-email" name="email" type="email" placeholder="Email">
+              <input class="contact-form-input contact-message" type="text" name="message" placeholder="Message" required>
+              <input type="hidden" name="_subject" value="New meechio message.">
+          
+          <button class="btn sign-up-btn contact-submit" id="contact-fancy-submit" type="submit"><span>Send Message</span></button>
+          </form>
+          <span class="form-note">Or message me on:</span>
+          <ul class="list social-media">
+              <li class="list-item">
+                  <a href="https://www.instagram.com/m.eechio/" class="list-link contact-list-link">
+                      <i class="ri-instagram-line"></i></a>
+                  <a href="https://twitter.com/meechio_/" class="list-link contact-list-link">
+                      <i class="ri-twitter-line"></i></a>
+    
+              </li>
+          </ul>
+          <span class="form-note">Press ESC to close.</span>
+      </div>
+  
+      <button class="btn form-close-btn place-items-center" id="contact-close-btn">
+          <i class="ri-close-line"></i>
+      </button>
+    </div>
+
+    <!-- Blog post -->
+    <section class="blog-post section-header-offset">
+
+        <div class="blog-post-container container">
+
+            <div class="blog-post-data">
+                
+                <h3 class="title blog-post-title">Getting Started</h3>
+                <div class="article-data">
+                    <span>Jul 12th 2022</span>
+                    <span class="article-data-spacer"></span>
+                    <span> Post 02</span>
+                </div>
+                <!--<img src="./assets/images/featured/getting-started.jpeg" alt="" class="">-->
+            </div>
+
+            <div class="container">
+
+                <p>Getting started has always been a challenge for me. Hell, it’s taken me fifteen minutes to get started with the opening of this post. It’s not easy to start something new, especially when I have no experience with it. Not to mention, all the excuses and reasons I can find to not get started and “do it later”. I’m sure if you’re reading this you can relate to some extent. I’ve noticed it seems to be a common issue among people these days.</p>
+
+                <p>For me, this entire project (meechio) was one big “getting started” project. In the midst of summer 2022, I didn’t have much going on so I felt obligated to get started on something. I had no idea what that something was, but I knew I had a couple months to get to work and make some progress on something.</p>
+               
+                <p>That something was me learning how to code. Naturally, it felt extremely overwhelming at first. I knew I had to start with the boring part, which was simply learning the terms and absolute basics. This took a few days of me watching YouTube and reading articles, all the while I was getting frustrated. I’m not the most patient person, especially if I’m not being mentally stimulated, but I stuck with the process. Along the way I created little projects for myself, as most coders do, to try new things and create small pieces of work to demonstrate I was making progress with my learning.</p>
+
+                <p>Fast forward a month, and I came around to creating the meechio website. To be honest, I had absolutely no idea what I wanted to do with the website (and to some extent I still don’t). However, creating the website was the most engaged I had felt with any work in a very long time. I had complete freedom with creative decisions and I could slowly feel a vision coming together in my head. About halfway through, I had the idea of turning it into a blog.</p>
+
+                <p>Why I had this idea, I have no idea. I’ve never been a fan of writing and it’s never been my forte (fun fact: forte is pronounced as fort). I still struggle with commas and feel as if I’m just spewing a bunch of nonsense. But that is exactly why getting started is so difficult. Our inner perfectionist wants us to have everything figured out before we start, but in reality that will never be the case. You just have to start and let the rest follow. Do it your way and don’t give a damn if it’s not perfect or won’t meet the expectations of the invisible critic you want to please. For example, I started my previous sentence with “but” knowing this is grammatically unsound, but I really don’t care because I couldn't think of an alternative word.</p>
+
+                <p>Anyway, I’ve accepted the fact that my coding and writing are not perfect and I will never be the best at either of those skills. I do know however, that in a year from now I will have a year’s worth of work to look back on and be proud of. Improvements and new ideas are inevitable along the way, you just have to simply get started.</p>
+
+                <blockquote class="quote">
+                    <p>
+                       <span style="color: var(--light-color);">Advice to my future self:</span> Risks aren't that scary once you take them. Don't wait to try new things, simply dive in and find excitement.
+                    </p>
+                </blockquote>
+
+                
+            
+                <div class="author d-grid">
+
+                    <div class="author-image-box">
+                        <img src="../images/featured/getting-started.jpeg" alt="" class="article-image">
+                    </div>
+
+                    <div class="author-about">
+                        <h3 class="author-name">meechio</h3>
+                        <p>a collection of sebastian's thoughts, stories & memories</p>
+
+                        <ul class="list social-media">
+                            <li class="list-item">
+                                <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="list-link"><i class="ri-twitter-line"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer section">
+
+        <div class="footer-container container d-grid">
+  
+            <div class="company-data">
+                <a href="./index.html">
+                    <h2 class="logo">meechio</h2>
+                </a>
+                <p class="company-description">
+                  a collection of sebastian's thoughts, stories & memories
+                </p>
+  
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="https://www.instagram.com/m.eechio/" class="list-link">
+                            <i class="ri-instagram-line"></i></a>
+                        <a href="https://twitter.com/meechio_/" class="list-link">
+                            <i class="ri-twitter-line"></i></a>
+                        <a href="https://www.youtube.com/channel/UCELGzzBL9nE-bjL7nRO5lOA/" class="list-link">
+                            <i class="ri-youtube-line"></i></a>
+          
+                    </li>
+                </ul>
+  
+                <span class="copyright-notice">&copy; 2022 meechio. All rights reserved.</span>
+            </div>
+  
+          <div>
+              <h6 class="title footer-title"><a href="./about.html" class="footer-title-link">About</a></h6>
+  
+              <ul class="list footer-list">
+                  <li class="list-item">
+  
+                    <a href="#" class="list-link">Readers Note</a>
+                  </li>  
+                  <li class="list-item">
+  
+                    <a href="#" class="list-link">Snapshot Gallery</a>
+                  </li>  
+  
+              </ul>
+          </div> 
+          
+          <div>
+            <h6 class="title footer-title"><a href="./blog.html" class="footer-title-link">Blog</a></h6>
+  
+            <ul class="list footer-list">
+                <li class="list-item">
+  
+                  <a href="#" class="list-link">Recently Featured</a>
+                </li>  
+                <li class="list-item">
+  
+                  <a href="./completeCollection.html" class="list-link">Complete Collection</a>
+                </li> 
+  
+      
+  
+            </ul>
+        </div>  
+  
+        <div>
+            <h6 class="title footer-title"><a href="./shop.html" class="footer-title-link">Collection</a></h6>
+  
+            <ul class="list footer-list">
+                <li class="list-item">
+                  <a href="./shop.html" class="list-link">Collection 01</a>
+                </li>  
+  
+                <li class="list-item">
+                  <a href="./shop.html" class="list-link">Collection Archive</a>
+                </li>  
+  
+  
+            </ul>
+        </div>  
+  
+        </div>
+    </footer>
+
+    <!-- Swiper.js -->
+    <script src="../js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,333 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> meechio | Alien</title>
+    <!-- Favicon -->
+   <!-- <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">-->
+   <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon_io/favicon-16x16.png">
+<link rel="manifest" href="/images/favicon_io/site.webmanifest">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./css/main.css"/>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+
+      <nav class="navbar container">
+
+          <a href="./index.html">
+              <h2 class="logo">meechio</h2>
+          </a>
+
+          <div class="menu" id="menu">
+              <ul class="list">
+                  <li class="list-item">
+                      <a href="./index.html" class="list-link">About</a>
+                  </li>
+                  <li class="list-item">
+                      <a href="./blog.html" class="list-link">Writing</a>
+                  </li>
+                  <li class="list-item">
+                      <a href="./shop.html" class="list-link">Collection</a>
+                  </li>
+                  <li class="list-item screen-lg-hidden">
+                    <a href="#" class="list-link btn sign-up-btn" id="contact-button"><span>Message</span></a>
+                </li>
+              </ul>
+          </div>
+          
+          <div class="list list-right">
+              <button class="btn place-items-center" id="theme-toggle-btn">
+                  <i class="ri-sun-line sun-icon"></i>
+                  <i class="ri-moon-line moon-icon"></i>
+              </button>
+             <!--Configure Search Bar at Later Point-->
+              <button class="btn place-items-center" id="search-icon">
+                  <i class="ri-search-line"></i>
+              </button>
+
+              <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                  <i class="ri-menu-3-line open-menu-icon"></i>
+                  <i class="ri-close-line close-menu-icon"></i>
+              </button>
+              <!--Extra Buttons
+              <a href="#" class="list-link screen-sm-hidden">Sign in</a>-->
+              <a href="#" class="screen-sm-hidden btn sign-up-btn fancy-border" id="contact-button-main"><span>Message</span></a>
+          </div>
+      </nav>
+  </header>
+
+  <!-- Search -->
+  <div class="search-form-container container" id="search-form-container">
+      <div class="form-container-inner">
+
+          <form action="" class="form">
+              <input class="form-input" type="text" placeholder="How can I help you?">
+              <button class="btn form-btn" type="submit">
+                  <i class="ri-search-line" style="color: rgb(173, 100, 54);"></i>
+              </button>
+          </form>
+          <span class="form-note">Or press ESC to close.</span>
+      </div>
+
+      <button class="btn form-close-btn place-items-center" id="form-close-btn">
+          <i class="ri-close-line"></i>
+      </button>
+  </div>
+
+  <!--Contact-->
+  <div class="contact-form-container container" id="contact-form-container">
+    <div class="form-container-inner">
+
+        <form action="https://formsubmit.co/sebastian@meechio.com" method="post" class="contact-form">
+            <h3>I'd love to hear from you...</h3>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/thankYou.html"> <!--Add thank you html once set up-->
+            <input class="contact-form-input contact-name" type="text" name="name" placeholder="Name">
+            <input class="contact-form-input contact-email" name="email" type="email" placeholder="Email">
+            <input class="contact-form-input contact-message" type="text" name="message" placeholder="Message" required>
+            <input type="hidden" name="_subject" value="New meechio message.">
+        
+        <button class="btn sign-up-btn contact-submit" id="contact-fancy-submit" type="submit"><span>Send Message</span></button>
+        </form>
+        <span class="form-note">Or message me on:</span>
+        <ul class="list social-media">
+            <li class="list-item">
+                <a href="https://www.instagram.com/m.eechio/" class="list-link contact-list-link">
+                    <i class="ri-instagram-line"></i></a>
+                <a href="https://twitter.com/meechio_/" class="list-link contact-list-link">
+                    <i class="ri-twitter-line"></i></a>
+  
+            </li>
+        </ul>
+        <span class="form-note">Press ESC to close.</span>
+    </div>
+
+    <button class="btn form-close-btn place-items-center" id="contact-close-btn">
+        <i class="ri-close-line"></i>
+    </button>
+  </div>
+
+<!--Alien Section-->
+<section class="alien-section container background-image-alien">
+    <div class="alien-heading">
+        <div class="alien-title">
+            <p>
+                <span>m</span>
+                <span>e</span>
+                <span>e</span>
+                <span>c</span>
+                <span>h</span>
+                <span>i</span>
+                <span>o</span>
+            </p>
+        </div>
+    <div class="alien-poem">
+        <h1 class="poem-title">SLOW DANCE</h1>
+        <p>David L. Weatherford</p>
+    </div>
+        <div class="poem-stanza stanza-1">
+            <p>Have you ever watched kids</p>
+            <p>On a merry-go-round?</p>
+        </div>
+        <div class="poem-stanza stanza-2">
+            <p>Or listened to the rain</p>
+            <p>Slapping on the ground?</p>
+        </div>
+        <div class="poem-stanza stanza-2">
+            <p>Ever followed a butterfly's erratic flight?</p>
+            <p>Or gazed at the sun into the fading night?</p>
+        </div>
+        <div class="poem-stanza stanza-8">
+            <p>You better slow down.</p>
+            <p>Don't dance so fast.</p>
+        </div>
+        <div class="poem-stanza stanza-8">
+            <p>Time is short.</p>
+            <p>The music won't last.</p>
+        </div>
+        <div class="poem-stanza stanza-4">
+            <p>Do you run through each day</p>
+            <p>On the fly?</p>
+        </div>
+        <div class="poem-stanza stanza-5">
+            <p>When you ask: How are you?</p>
+            <p>Do you hear the reply?</p>
+        </div>
+        <div class="poem-stanza stanza-1">
+            <p>When the day is done,</p>
+            <p>do you lie in bed</p>
+        </div>
+        <div class="poem-stanza stanza-2">
+            <p>With the next hundred chores</p>
+            <p>Running through your head?</p>
+        </div>
+        <div class="poem-stanza stanza-6">
+            <p>You'd better slow down.</p>
+            <p>Don't dance so fast.</p>
+        </div>
+        <div class="poem-stanza stanza-6">
+            <p>Time is short.</p>
+            <p>The music won't last.</p>
+        </div>
+        <div class="poem-stanza stanza-7">
+            <p>Ever told your child,</p>
+            <p>We'll do it tomorrow?</p>
+        </div>
+        <div class="poem-stanza stanza-1">
+            <p>And in your haste,</p>
+            <p>Not see their sorrow?</p>
+        </div>
+        <div class="poem-stanza stanza-3">
+            <p>Ever lost touch,</p>
+            <p>Let a good friendship die</p>
+        </div>
+        <div class="poem-stanza stanza-4">
+            <p>Cause you never had the time</p>
+            <p>To call and say, "Hi"?</p>
+        </div>
+        <div class="poem-stanza stanza-6">
+            <p>You'd better slow down</p>
+            <p>Don't dance so fast.</p>
+        </div>
+        <div class="poem-stanza stanza-7">
+            <p>Time is short.</p>
+            <p>The music won't last.</p>
+        </div>
+        <div class="poem-stanza stanza-8">
+            <p>When you run so fast to get somewhere</p>
+            <p>You miss half the fun of getting there.</p>
+        </div>
+        <div class="poem-stanza stanza-4">
+            <p>When you worry and hurry through the day,</p>
+            <p>It is like an unopened gift thrown away.</p>
+        </div>
+        <div class="poem-stanza stanza-7">
+            <p>Life is not a race.</p>
+            <p>Do take it slower.</p>
+        </div>
+        <div class="poem-stanza stanza-1">
+            <p>Hear the music</p>
+            <p>Before the song is over.</p>
+        </div>
+    </div>
+
+</section>
+  
+  
+  <!-- Footer -->
+  <footer class="footer section">
+
+      <div class="footer-container container d-grid">
+
+          <div class="company-data">
+              <a href="./index.html">
+                  <h2 class="logo">meechio</h2>
+              </a>
+              <p class="company-description">
+                a collection of sebastian's thoughts, stories & memories
+              </p>
+
+              <ul class="list social-media">
+                  <li class="list-item">
+                      <a href="https://www.instagram.com/m.eechio/" class="list-link">
+                          <i class="ri-instagram-line"></i></a>
+                      <a href="https://twitter.com/meechio_/" class="list-link">
+                          <i class="ri-twitter-line"></i></a>
+                      <a href="https://www.youtube.com/channel/UCELGzzBL9nE-bjL7nRO5lOA/" class="list-link">
+                          <i class="ri-youtube-line"></i></a>
+                        <a href="./alien.html" class="list-link">
+                            <i class="ri-aliens-line"></i></a>
+                  </li>
+              </ul>
+
+              <span class="copyright-notice">&copy; 2022 meechio. All rights reserved.</span>
+              
+              
+          </div>
+
+        <div>
+            <h6 class="title footer-title"><a href="./index.html" class="footer-title-link">About</a></h6>
+
+            <ul class="list footer-list">
+                <li class="list-item">
+
+                  <a href="#note-link" class="list-link">Readers Note</a>
+                </li>  
+                <li class="list-item">
+
+                  <a href="#" class="list-link">Snapshot Gallery</a>
+                </li>  
+
+            </ul>
+        </div> 
+        
+        <div>
+          <h6 class="title footer-title"><a href="./blog.html" class="footer-title-link">Blog</a></h6>
+
+          <ul class="list footer-list">
+              <li class="list-item">
+
+                <a href="#" class="list-link">Recently Featured</a>
+              </li>  
+              <li class="list-item">
+
+                <a href="./completeCollection.html" class="list-link">Complete Collection</a>
+              </li> 
+
+    
+
+          </ul>
+      </div>  
+
+      <div>
+          <h6 class="title footer-title"><a href="./shop.html" class="footer-title-link">Collection</a></h6>
+
+          <ul class="list footer-list">
+              <li class="list-item">
+                <a href="./shop.html" class="list-link">Collection 01</a>
+              </li>  
+
+              <li class="list-item">
+                <a href="./shop.html" class="list-link">Collection Archive</a>
+              </li>  
+
+
+          </ul>
+      </div>  
+
+      </div>
+
+ 
+  </footer>
+
+
+  <!-- Swiper.js -->
+  <script src="./js/swiper-bundle.min.js"></script>
+  <!-- Custom script -->
+  <script src="./js/main.js"></script>
+  <!--Contact Email-->
+  <!--<script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script>
+      function sendEmail(){
+        Email.send({
+            SecureToken : "dd77375d-cc65-41ed-a3e0-0ce97ee02848",
+            To : 'sebastian@meechio.com',
+            From : document.getElementById('email-id').value,
+            Subject : "This is the subject",
+            Body : "And this is the body"
+        }).then(
+        message => alert(message)
+        );
+      }-->
+  </script>
+</body>
+</html>

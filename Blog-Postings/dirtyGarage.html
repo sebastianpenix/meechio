@@ -1,0 +1,285 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meechio | Post 03</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon_io/favicon.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+     <!-- Header -->
+     <header class="header" id="header">
+
+        <nav class="navbar container">
+  
+            <a href="../index.html">
+                <h2 class="logo">meechio</h2>
+            </a>
+  
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="../index.html" class="list-link">About</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="../blog.html" class="list-link">Writing</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="../shop.html" class="list-link">Collection</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                      <a href="#" class="list-link btn sign-up-btn" id="contact-button"><span>Message</span></a>
+                  </li>
+                </ul>
+            </div>
+            
+            <div class="list list-right">
+                <button class="btn place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </button>
+               <!--Configure Search Bar at Later Point-->
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+  
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </button>
+                <!--Extra Buttons
+                <a href="#" class="list-link screen-sm-hidden">Sign in</a>-->
+                <a href="#" class="screen-sm-hidden btn sign-up-btn fancy-border" id="contact-button-main"><span>Message</span></a>
+            </div>
+        </nav>
+    </header>
+  
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+        <div class="form-container-inner">
+  
+            <form action="" class="form">
+                <input class="form-input" type="text" placeholder="How can I help you?">
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-search-line" style="color: rgb(173, 100, 54);"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close.</span>
+        </div>
+  
+        <button class="btn form-close-btn place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </button>
+    </div>
+  
+    <!--Contact-->
+    <div class="contact-form-container container" id="contact-form-container">
+      <div class="form-container-inner">
+  
+          <form action="https://formsubmit.co/sebastian@meechio.com" method="post" class="contact-form">
+              <h3>I'd love to hear from you...</h3>
+              <input type="hidden" name="_captcha" value="false">
+              <!--<input type="hidden" name="_next" value="https://meechio.com/pages/thankyou.html" >--> <!--Add thank you html once set up-->
+              <input class="contact-form-input contact-name" type="text" name="name" placeholder="Name">
+              <input class="contact-form-input contact-email" name="email" type="email" placeholder="Email">
+              <input class="contact-form-input contact-message" type="text" name="message" placeholder="Message" required>
+              <input type="hidden" name="_subject" value="New meechio message.">
+          
+          <button class="btn sign-up-btn contact-submit" id="contact-fancy-submit" type="submit"><span>Send Message</span></button>
+          </form>
+          <span class="form-note">Or message me on:</span>
+          <ul class="list social-media">
+              <li class="list-item">
+                  <a href="https://www.instagram.com/m.eechio/" class="list-link contact-list-link">
+                      <i class="ri-instagram-line"></i></a>
+                  <a href="https://twitter.com/meechio_/" class="list-link contact-list-link">
+                      <i class="ri-twitter-line"></i></a>
+    
+              </li>
+          </ul>
+          <span class="form-note">Press ESC to close.</span>
+      </div>
+  
+      <button class="btn form-close-btn place-items-center" id="contact-close-btn">
+          <i class="ri-close-line"></i>
+      </button>
+    </div>
+
+
+    <!-- Blog post -->
+    <section class="blog-post section-header-offset">
+
+        <div class="blog-post-container container">
+
+            <div class="blog-post-data">
+                
+                <h3 class="title blog-post-title">The Beauty of My Dirty Garage</h3>
+                <div class="article-data">
+                    <span>Jul 14th 2022</span>
+                    <span class="article-data-spacer"></span>
+                    <span> Post 03</span>
+                </div>
+                <!--<img src="./assets/images/featured/getting-started.jpeg" alt="" class="">-->
+            </div>
+
+            <div class="container">
+
+                <p>My garage is a two car garage. It has concrete floors and shelves surrounding the entire space. The shelves are roughly organized by different categories. We have a food section, a tools section, gardening section, lawn chair section, and an overhead section full of holiday decorations and childhood memorabilia.</p>
+
+                <p>Each section contains a mix of random objects, some of which are used on the daily and others haven’t been touched in my lifetime. It can get awfully dirty - full of cobwebs and yard debris. I’m sure this is not unique for a garage, as garages are built to store the dirty objects that don’t belong in the house. </p>
+               
+                <p>To my mom, the garage is the most stressful place in the house. From her perspective it’s just a dirty collection of junk. She notices the water stains on the ceiling and the lights that flicker like a horror movie. She notices the broken mirror that is shattered right down the middle and appears to have no functionality. To her, the garage is nothing more than a place to park her car then hurry inside the house while trying not to worry about everything wrong with it. </p>
+
+                <p>Personally, I have a completely different relationship with my garage.</p>
+
+                <p>As I mentioned, it is a two car garage, however, we only store one car in it. On the other half, there is a small workout area lodged between random objects on either side.</p>
+
+                <p>This little spot is my safe spot in the house. The place I can go to if I want to escape everything or tackle an issue head-on.</p>
+
+                <p>It is a place that is so quiet and untouched there is peace everywhere. There is peace in looking at my old collection of soccer balls that remind me of my favorite memories. There is peace in looking at the spiders who go about their business in the corner, completely unaware of my presence. There is peace in looking at all the random gadgets and tools and wondering where the hell each of them came from. There is peace in looking at myself through the shattered mirror that is propped up by a paint can and two empty boxes.</p>
+
+                <p>It is the perfect spot to relax and clear my head. I can walk into the hot, cluttered, dirty garage, spend an hour in there, and come back inside feeling like I dumped all my stress into one of the random boxes sitting on the shelf.</p>
+
+                <p>Now of course the act of working out itself is a huge stress reliever, but the fact that everything is so perfectly wrong in the garage just amplifies the effect.</p>
+
+                <p>The lighting is perfectly eerie - especially at night when I spend most of my time in the garage.</p>
+
+                <p>My cheesy motivational signs from years ago perfectly cover up the holes in the wall. </p>
+
+                <p>The random assortment of equipment that I accumulated over the years perfectly suits my needs. </p>
+
+                <p>And of course the broken mirror that is perfectly propped up to allow me to face myself and address any problems I’m having.</p>
+
+                <p>My garage has lifted me up at my lowest points and my highest points, which is why I felt the need to post this and defend its beauty.</p>
+
+                <blockquote class="quote">
+                    <p>
+                       <span style="color: var(--light-color);">Advice to my future self:</span> Wherever you are, find your personal sanctuary and visit it often.
+                    </p>
+                </blockquote>
+
+                
+            
+                <div class="author d-grid">
+
+                    <div class="author-image-box">
+                        <img src="../images/featured/dirty-garage.jpeg" alt="" class="article-image">
+                    </div>
+
+                    <div class="author-about">
+                        <h3 class="author-name">meechio</h3>
+                        <p>a collection of sebastian's thoughts, stories & memories</p>
+
+                        <ul class="list social-media">
+                            <li class="list-item">
+                                <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="list-link"><i class="ri-twitter-line"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer section">
+
+        <div class="footer-container container d-grid">
+  
+            <div class="company-data">
+                <a href="../index.html">
+                    <h2 class="logo">meechio</h2>
+                </a>
+                <p class="company-description">
+                  a collection of sebastian's thoughts, stories & memories
+                </p>
+  
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="https://www.instagram.com/m.eechio/" class="list-link">
+                            <i class="ri-instagram-line"></i></a>
+                        <a href="https://twitter.com/meechio_/" class="list-link">
+                            <i class="ri-twitter-line"></i></a>
+                        <a href="https://www.youtube.com/channel/UCELGzzBL9nE-bjL7nRO5lOA/" class="list-link">
+                            <i class="ri-youtube-line"></i></a>
+          
+                    </li>
+                </ul>
+  
+                <span class="copyright-notice">&copy; 2022 meechio. All rights reserved.</span>
+            </div>
+  
+          <div>
+              <h6 class="title footer-title"><a href="../index.html" class="footer-title-link">About</a></h6>
+  
+              <ul class="list footer-list">
+                  <li class="list-item">
+  
+                    <a href="#" class="list-link">Readers Note</a>
+                  </li>  
+                  <li class="list-item">
+  
+                    <a href="#" class="list-link">Snapshot Gallery</a>
+                  </li>  
+  
+              </ul>
+          </div> 
+          
+          <div>
+            <h6 class="title footer-title"><a href="../blog.html" class="footer-title-link">Blog</a></h6>
+  
+            <ul class="list footer-list">
+                <li class="list-item">
+  
+                  <a href="#" class="list-link">Recently Featured</a>
+                </li>  
+                <li class="list-item">
+  
+                  <a href="../completeCollection.html" class="list-link">Complete Collection</a>
+                </li> 
+  
+      
+  
+            </ul>
+        </div>  
+  
+        <div>
+            <h6 class="title footer-title"><a href="../shop.html" class="footer-title-link">Collection</a></h6>
+  
+            <ul class="list footer-list">
+                <li class="list-item">
+                  <a href="../shop.html" class="list-link">Collection 01</a>
+                </li>  
+  
+                <li class="list-item">
+                  <a href="../shop.html" class="list-link">Collection Archive</a>
+                </li>  
+  
+  
+            </ul>
+        </div>  
+  
+        </div>
+    </footer>
+
+    <!-- Swiper.js -->
+    <script src="../js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="../js/main.js"></script>
+</body>
+</html>
