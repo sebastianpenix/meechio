@@ -320,7 +320,7 @@ body.light-theme{
     width: 30rem;
     padding: 1.5rem;
     background-color: var(--primary-background-color);
-    color: rgb(173, 100, 54);
+    
 } 
 
 .contact-submit:hover{
@@ -349,6 +349,7 @@ body.light-theme{
 .footer{
     background-color: var(--secondary-background-color);
 }
+
 
 .footer-container{
     gap: var(--gap);
@@ -483,7 +484,7 @@ body.light-theme{
     scroll = normal
     */
 
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 .background-image-3{
@@ -492,14 +493,14 @@ body.light-theme{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     border: 8px double rgb(212, 179, 67);
 }
 
 .background-image-1{
     background-image: url('../images/about-page/note-background.jpeg');
     height: 25rem;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 .background-image-2{
@@ -582,7 +583,7 @@ body.light-theme{
 
 .about-section{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     color: var(--light-color-alt);
     padding: 2rem;
 }
@@ -759,6 +760,7 @@ body.light-theme{
     gap: var(--gap);
     font-size: var(--font-size-xsm);
 }
+
 
 .complete-collection{
     margin-top: 7.4rem;
@@ -1115,7 +1117,7 @@ body.light-theme{
 }
 
 .author{
-    margin-top: 5rem;
+    margin-top: 2rem;
     gap: var(--gap);
     background-color: var(--secondary-background-color);
 }
@@ -1147,9 +1149,47 @@ body.light-theme{
     margin-bottom: 0;
 }
 
+.blog-control-btns{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    margin-bottom: 0rem;
+}
+
+.blog-nav-btn{
+    text-transform: uppercase;
+    font-size: var(--font-size-xsm);
+    color: var(--light-color);
+    padding: 0 2rem;
+}
+
+.see-more-btn-left{
+    text-transform: uppercase;
+}
+
+.see-more-btn-left i{
+    transition: transform .25s;
+}
+
+.see-more-btn-left:hover i{
+    transform: translateX(-.5rem);
+}
+
+.blog-home-nav-btn:hover{
+transform: scale(1.2);
+}
+
+
+
 /*Blog page responsive styles */
 
 /* Media queries */
+@media screen and (min-width:550px){
+    .about-section{
+        display: flex;
+        flex-direction: row;}
+}
+
 @media screen and (min-width: 700px){
     .trending-news-box{
         flex-direction: row;
@@ -1235,14 +1275,6 @@ body.light-theme{
     }
 
 
-    .background-image-1{
-        background-attachment: fixed;
-    }
-
-    .background-image-2{
-        background-attachment: fixed;
-    }
-
 }
 
 @media screen and (min-width: 1024px) {
@@ -1257,6 +1289,18 @@ body.light-theme{
 
     .menu > .list{
         flex-direction: row;
+    }
+
+    .background-image-1{
+        background-attachment: fixed;
+    }
+
+    .background-image-2{
+        background-attachment: fixed;
+    }
+
+    .background-image-3{
+        background-attachment: fixed;
     }
 
     .screen-lg-hidden{
@@ -1347,6 +1391,8 @@ body.light-theme{
     .headline{
         font-size: .5rem;
     }
+
+    
 }
 
 /* Collection Page */
@@ -1738,9 +1784,11 @@ body.light-theme{
     position: relative;
     opacity: 1;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 99rem;
 }
+
 
 .background-image-graffiti{
     background-image: url('../images/graffiti/base-meechio-graffiti.jpg');
@@ -1756,9 +1804,9 @@ body.light-theme{
 
 .alien-egg{
     color: #004AAD;
-    position: absolute;
-    top: 56.5%;
-    left: 71.5%;
+    position: relative;
+    padding-top: 46.5rem;
+    padding-left: 70rem;
 }
 
 .alien-egg:hover{
@@ -1771,6 +1819,14 @@ body.light-theme{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+}
+
+.graffiti-form-name{
+    width: 15rem;
+}
+
+.graffiti-form-submit{
+    width: 15rem;
 }
 
 .spray-form{
@@ -1790,4 +1846,8 @@ body.light-theme{
 
 .ri-emotion-happy-fill:hover{
     color: var(--light-color);
+}
+
+.collection-archive-article{
+    height: 45rem;
 }
