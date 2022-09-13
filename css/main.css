@@ -498,18 +498,18 @@ body.light-theme{
 }
 
 .background-image-1{
-    background-image: url('../images/about-page/note-background.jpeg');
+    background-image: url('../images/about-page/note-background.webp');
     height: 25rem;
     background-attachment: scroll;
 }
 
 .background-image-2{
-    background-image: url('../images/about-page/note-background.jpeg');
+    background-image: url('../images/about-page/note-background.webp');
     min-height: 11rem;
 }
 
 .background-image-3{
-    background-image: url('../images/about-page/note-background.jpeg');
+    background-image: url('../images/about-page/note-background.webp');
     min-height: 11rem;
 }
 
