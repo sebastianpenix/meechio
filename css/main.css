@@ -500,7 +500,7 @@ body.light-theme{
 .background-image-1{
     background-image: url('../images/about-page/note-background.webp');
     height: 25rem;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 .background-image-2{
@@ -1229,7 +1229,7 @@ transform: scale(1.2);
         background-attachment: scroll;
     }
     .background-image-1{
-        background-attachment: fixed;
+        background-attachment: scroll;
     }
   
 
