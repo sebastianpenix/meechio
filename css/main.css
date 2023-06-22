@@ -465,7 +465,7 @@ body.light-theme{
     position: relative;
     opacity: 1;
     background-position: center;
-    background-size: cover;
+    background-size: 110% 110%;
     background-repeat: no-repeat;
     border: 8px double rgb(75, 139, 170);
 }
@@ -474,7 +474,7 @@ body.light-theme{
     position: relative;
     opacity: 1;
     background-position: center;
-    background-size: cover;
+    background-size: 110% 110%;
     background-repeat: no-repeat;
     border: 8px double rgb(120, 33, 36);
 
@@ -491,7 +491,7 @@ body.light-theme{
     position: relative;
     opacity: 1;
     background-position: center;
-    background-size: cover;
+    background-size: 110% 110%;
     background-repeat: no-repeat;
     background-attachment: scroll;
     border: 8px double rgb(212, 179, 67);
