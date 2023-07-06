@@ -952,6 +952,7 @@ body.light-theme{
 
 .article.swiper-slide{
     height: 40rem;
+    margin-bottom: 2rem;
 }
 
 /* Quick read - Swiper */
