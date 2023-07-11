@@ -972,7 +972,7 @@ body.light-theme{
 }
 
 .swiper-pagination{
-    bottom: .5rem !important;
+    bottom: .02rem !important;
 }
 
 .swiper-pagination-bullet{
